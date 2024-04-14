@@ -22,7 +22,7 @@ class RhymersApplication {
             rhymers[3].countIn(randomNumber.nextInt(20));
         
         for (int i = 0; i < rhymers.length; i++) {
-            while (!rhymers[i].callCheck())
+            while (!rhymers[i].checkCall())
                 System.out.print(rhymers[i].countOut() + "  ");
             System.out.println();
         }
