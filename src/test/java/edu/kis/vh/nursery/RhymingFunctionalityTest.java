@@ -5,9 +5,9 @@ import org.junit.Test;
 
 public class RhymingFunctionalityTest {
 
-    public static final int TEST_VALUE = 4;
-    public static final int CAPCITY_OF_STACK = 12;
-    public static final int EMPTY_STACK = -1;
+    private static final int TEST_VALUE = 4;
+    private static final int CAPCITY_OF_STACK = 12;
+    private static final int EMPTY_STACK = -1;
 
     @Test
     public void testCountIn() {
