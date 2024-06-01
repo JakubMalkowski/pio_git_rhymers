@@ -51,7 +51,7 @@ public class DefaultCountingOutRhymer{
      *
      * @return ostatni element z tablicy lub -1, jeśli tablica jest pusta
      */
-    protected int peekaboo() {
+    protected int peek() {
         if (checkCall())
             return -1;
         return numbers[totalCount];
