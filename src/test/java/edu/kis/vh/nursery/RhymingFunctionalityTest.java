@@ -15,7 +15,7 @@ public class RhymingFunctionalityTest {
         int testValue = TEST_VALUE;
         rhymer.countIn(testValue);
 
-        
+
         int result = rhymer.peek();
         Assert.assertEquals(testValue, result);
     }
